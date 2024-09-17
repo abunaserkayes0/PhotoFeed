@@ -1,4 +1,5 @@
-import PhotoDetails from "../../Components/PhotoDetails";
+
+import PhotoDetails from "../Components/PhotoDetails";
 
 export default async function page({ params: { lang, id } }) {
 

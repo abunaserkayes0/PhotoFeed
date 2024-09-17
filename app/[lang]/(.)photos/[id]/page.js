@@ -1,5 +1,6 @@
 import Modal from "@/Components/Modal";
-import PhotoDetails from "../../Components/PhotoDetails";
+import PhotoDetails from "../../photos/Components/PhotoDetails";
+// import PhotoDetails from "../../Components/PhotoDetails";
 
 export default function page({ params: { id, lang } }) {
     return (

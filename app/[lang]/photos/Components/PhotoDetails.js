@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getDictionaries } from "../dictionaries";
+import { getDictionaries } from "../../dictionaries";
 export default async function PhotoDetails({ lang, id }) {
     const response = await fetch(`${process.env.BASE_API_URL}/photos/${id}`);
     const photo = await response.json();

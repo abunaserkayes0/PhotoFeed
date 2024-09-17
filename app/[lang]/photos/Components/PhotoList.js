@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getDictionaries } from "../dictionaries";
+// import { getDictionaries } from "../dictionaries";
 import Link from "next/link";
 import PhotoCard from "./PhotoCard";
 

@@ -1,4 +1,4 @@
-import PhotoList from "./Components/PhotoList";
+import PhotoList from "./photos/Components/PhotoList";
 
 export default async function Home() {
     // const dict = await getDictionaries(lang);
